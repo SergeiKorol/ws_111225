@@ -7,4 +7,4 @@ def test_add():
     response_body = response.json()
 
     assert response.status_code == 202
-    assert response_body['completed']==False
+    assert response_body['completed'] is False
